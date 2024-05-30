@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interior Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      li {
+        margin-bottom: 10px;
+      }
+      hr {
+        height: 8px;
+        background-color: tomato;
+        border: none;
+        border-radius: 5px;
+        width: 5%;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="item1">
+        <h3><b>The</b></h3>
+        <br />
+        <h3>Company</h3>
+        <br />
+        <br />
+        <br />
+
+        <ul style="list-style: none; row-gap: 2px">
+          <li>Home</li>
+          <li>Showcase</li>
+          <li>Services</li>
+          <li>Designers</li>
+          <li>Packages</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="item2">
+        <h1 style="font-size: 50px">
+          <b>Interior Design</b>
+        </h1>
+        <br />
+        <h2 style="color: tomato; font-size: 40px"><b>Showcase.</b></h2>
+        <br />
+        <hr />
+        <br />
+        <br />
+        <br />
+        <div class="img-container">
+          <img class="img-items" src="./images/showcase-01.jpg" alt="" />
+          <img class="img-items" src="./images/showcase-02.jpg" alt="" />
+          <img class="img-items" src="./images/showcase-03.jpg" alt="" />
+          <img class="img-items" src="./images/showcase-04.jpg" alt="" />
+          <img class="img-items" src="./images/showcase-05.jpg" alt="" />
+          <img class="img-items" src="./images/showcase-06.jpg" alt="" />
+        </div>
+        <br /><br /><br />
+        <h2 style="color: tomato; font-size: 40px"><b>Services.</b></h2>
+        <br />
+        <hr />
+        <br />
+        <p>
+          The best team in the world. <br />
+          <br />
+          Discover our comprehensive interior design services tailored to
+          transform your space. From initial consultation to final execution,
+          our expert team delivers personalized design solutions, blending
+          aesthetics with functionality. We specialize in residential,
+          commercial, and hospitality projects, ensuring a seamless experience
+          and exquisite results that reflect your unique style.
+        </p>
+        <br /><br /><br />
+        <h2 style="color: tomato; font-size: 40px"><b>Designers.</b></h2>
+        <br />
+        <hr />
+        <br />
+        <p>
+          The best team in the world. <br />
+          <br />
+          Our team of talented interior designers is dedicated to transforming
+          your vision into reality. With years of experience and a keen eye for
+          detail, our designers excel in creating spaces that are both
+          aesthetically pleasing and functional. Each project is approached with
+          creativity and innovation, ensuring a unique design that reflects your
+          personal style. From modern minimalism to classic elegance, our
+          designers are skilled in various design philosophies. They work
+          closely with you to understand your preferences and requirements,
+          ensuring a seamless and enjoyable design process. Trust our experts to
+          deliver exceptional interiors that exceed your expectations.
+          <br />
+
+          <br />
+          <b>Our designers are carefully chosen:</b>
+        </p>
+        <br /><br />
+        <div class="card-designers" style="margin-bottom: 10px">
+          <div class="card">
+            <img src="./images/person-01.jpg" alt="" style="width: 100%" />
+            <div class="desc">
+              <h2>John Doe</h2>
+              <br />
+              <h3 style="color: gray">CEO & Founder</h3>
+              <br />
+              <p>He is the founder.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/person-03.jpg" alt="" style="width: 100%" />
+            <div class="desc">
+              <h2>Rick Flair</h2>
+              <br />
+              <h3 style="color: gray">Architect</h3>
+              <br />
+              <p>He is the architect.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/images.jpeg" alt="" style="width: 100%" />
+            <div class="desc">
+              <h2>John Cena</h2>
+              <br />
+              <h3 style="color: gray">Designer</h3>
+              <br />
+              <p>He is the designer.</p>
+            </div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <h2 style="color: tomato; font-size: 40px"><b>Packages.</b></h2>
+        <br />
+        <hr />
+        <br />
+        <div class="grid-container">
+          <div class="col-1">
+            <div
+              class="grid-item"
+              style="color: white; background-color: gray; font-size: x-large"
+            >
+              Basic
+            </div>
+            <div class="grid-item">Floorplanning</div>
+            <div class="grid-item">10 hours support</div>
+            <div class="grid-item">Photography</div>
+            <div class="grid-item">20% furniture discount</div>
+            <div class="grid-item">Good deals</div>
+            <div class="grid-item">
+              <div class="clickable">
+                <button style="background-color: lightgray; border: none">
+                  <span
+                    style="font-size: xx-large"
+                    class="b-plus"
+                    onclick="double_b_amount()"
+                    >+
+                  </span></button
+                ><span style="font-size: xx-large" id="basic-val">$ 199 </span
+                ><button style="background-color: lightgray; border: none">
+                  <span
+                    style="font-size: xx-large"
+                    class="b-minus"
+                    onclick="lower_b_amount()"
+                  >
+                    -</span
+                  ></button
+                ><br />
+                <span class="room-text">1 room</span>
+              </div>
+            </div>
+            <div class="grid-item">
+              <button
+                style="
+                  background-color: white;
+                  border: none;
+                  padding: 10px;
+                  border-radius: 5px;
+                "
+                onclick="basic_thanks()"
+              >
+                Sign Up
+              </button>
+            </div>
+            <div class="grid-item"><span id="basic-thanks"></span></div>
+          </div>
+          <div class="col-2">
+            <div
+              class="grid-item"
+              style="color: white; background-color: tomato; font-size: x-large"
+            >
+              Pro
+            </div>
+            <div class="grid-item">Floorplanning</div>
+            <div class="grid-item">50 hours support</div>
+            <div class="grid-item">Photography</div>
+            <div class="grid-item">50% furniture discount</div>
+            <div class="grid-item">GREAT deals</div>
+            <div class="grid-item">
+              <div class="clickable">
+                <button style="background-color: lightgray; border: none">
+                  <span
+                    style="font-size: xx-large"
+                    class="plus"
+                    onclick="double_p_amount()"
+                    >+
+                  </span>
+                </button>
+                <span style="font-size: xx-large" id="pro-val">$ 249 </span>
+                <button style="background-color: lightgray; border: none">
+                  <span
+                    style="font-size: xx-large"
+                    class="minus"
+                    onclick="lower_p_amount()"
+                  >
+                    -</span
+                  ></button
+                ><br />
+                <span class="room-text">1 room</span>
+              </div>
+            </div>
+            <div class="grid-item">
+              <button
+                style="
+                  background-color: tomato;
+                  border: none;
+                  padding: 10px;
+                  border-radius: 5px;
+                "
+                onclick="pro_thanks()"
+              >
+                Sign Up
+              </button>
+            </div>
+            <div class="grid-item"><span id="pro-thanks"></span></div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <h2 style="color: tomato; font-size: 40px"><b>Contact.</b></h2>
+        <br />
+        <hr />
+        <br />
+        <p>
+          Do you want us to style your home? Fill out the form and fill us in
+          with the details. :) We love meeting new people!
+        </p>
+        <br />
+        <div class="contact">
+          <form>
+            <label for="name">Name</label>
+            <br />
+            <input type="text" name="name" id="name" required />
+            <br /><br />
+
+            <label for="email">Email</label>
+            <br />
+            <input type="email" name="email" id="email" required />
+            <br /><br />
+            <label for="text">Message</label>
+            <br />
+            <input type="text" name="text" id="text" required />
+            <br /><br />
+
+            <input type="submit" />
+          </form>
+        </div>
+        <br /><br /><br />
+      </div>
+    </div>
+    <footer style="background-color: #d3d3d3; height: 20vh"></footer>
+
+    <!-- script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
